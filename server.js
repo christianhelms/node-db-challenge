@@ -1,6 +1,6 @@
 const express = require('express');
 
-const db = require('./data/db-config.js');
+const db = require('./data/db-config');
 const projectsRouter = require('./projects/projects-router');
 const resourcesRouter = require('./resources/resources-router');
 const tasksRouter = require('./tasks/tasks-router')
